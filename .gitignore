@@ -1,0 +1,34 @@
+# Diretórios de build
+build/
+.dart_tool/
+**/*.apk
+**/*.dill
+**/flutter_build/
+
+# Pastas específicas do Dart
+.dart_tool/
+.dart_server/
+
+# Pacotes
+**/.packages
+
+# Configurações de IDE/editor
+.idea/
+.vscode/
+*.iml
+
+# Arquivos temporários ou de cache
+**/*.lock
+**/Flutter.pub-cache/
+
+# Arquivos de log
+**/*.log
+
+# Arquivos de chave
+**/key.properties
+
+# Arquivos e diretórios específicos do SO
+.DS_Store
+Thumbs.db
+
+**/api_key.dart

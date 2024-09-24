@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "29338838690",
+    "project_id": "maps-tracking-oky45h",
+    "storage_bucket": "maps-tracking-oky45h.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29338838690:android:d5558b2b96b60a4d4c19fb",
+        "android_client_info": {
+          "package_name": "com.pigmadesenvolvimentos.lakretracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAytXpGGA-jQn9FnWT4PrN6CkceDy_iO90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
