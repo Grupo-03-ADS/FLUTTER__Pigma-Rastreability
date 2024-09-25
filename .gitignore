@@ -30,5 +30,10 @@ build/
 # Arquivos e diretórios específicos do SO
 .DS_Store
 Thumbs.db
+.flutter-plugins
+.flutter-plugins-dependencies
 
 **/api_key.dart
+
+## Arquivo de configuração do mapBox
+.netric
