@@ -7,6 +7,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'codigo_acesso_model.dart';
+import 'package:pigma/logomarca_global.dart';
 export 'codigo_acesso_model.dart';
 
 class CodigoAcessoWidget extends StatefulWidget {
@@ -226,10 +227,10 @@ class _CodigoAcessoWidgetState extends State<CodigoAcessoWidget> {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(8.0),
                           child: Image.asset(
-                            'assets/images/image_4.png',
+                            logomarca,
                             width: 132.0,
                             height: 82.0,
-                            fit: BoxFit.cover,
+                            fit: BoxFit.contain,
                           ),
                         ),
                       ),

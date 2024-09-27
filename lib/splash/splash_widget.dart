@@ -1,3 +1,5 @@
+import 'package:pigma/logomarca_global.dart';
+
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -58,20 +60,20 @@ class _SplashWidgetState extends State<SplashWidget> {
               ClipRRect(
                 borderRadius: BorderRadius.circular(8.0),
                 child: Image.asset(
-                  'assets/images/image_4.png',
+                  logomarca,
                   width: 300.0,
                   height: 185.0,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.contain,
                 ),
               ),
               const Spacer(flex: 2),
-              ClipRRect(
+              /* ClipRRect(  // IMPORTANTE: Descomentar esse bloco para adicionar a imagem de splash no carregamento do app.
                 borderRadius: BorderRadius.circular(8.0),
                 child: Image.asset(
                   'assets/images/pigma_(1)_1.png',
                   fit: BoxFit.cover,
                 ),
-              ),
+              ), */
               const Spacer(),
               const Text(
                 "v2.0.1", // Version Code

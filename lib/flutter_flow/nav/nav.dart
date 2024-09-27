@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:pigma/logomarca_global.dart';
 import 'package:provider/provider.dart';
 
 import '/auth/custom_auth/custom_auth_user_provider.dart';
@@ -299,9 +300,9 @@ class FFRoute {
                   color: Colors.white,
                   child: Center(
                     child: Image.asset(
-                      'assets/images/image_4.png',
+                      logomarca,
                       width: 200.0,
-                      fit: BoxFit.cover,
+                      fit: BoxFit.contain,
                     ),
                   ),
                 )

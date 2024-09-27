@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:pigma/backend/schema/structs/positions_struct.dart';
+import 'package:pigma/logomarca_global.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '/backend/api_requests/api_calls.dart';
 import '/backend/backend.dart';
@@ -289,10 +290,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8.0),
                             child: Image.asset(
-                              'assets/images/image_4.png',
+                              logomarca,
                               width: 64.0,
                               height: 40.0,
-                              fit: BoxFit.cover,
+                              fit: BoxFit.contain,
                             ),
                           ),
                         ),
