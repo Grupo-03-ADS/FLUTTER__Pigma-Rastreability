@@ -9,7 +9,7 @@ import 'auth/custom_auth/custom_auth_user_provider.dart';
 
 import 'backend/firebase/firebase_config.dart';
 import 'flutter_flow/flutter_flow_util.dart';
-import 'flutter_flow/internationalization.dart';
+import 'flutter_flow/internationalization.dart'; 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
