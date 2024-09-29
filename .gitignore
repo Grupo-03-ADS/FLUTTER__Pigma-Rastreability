@@ -32,3 +32,6 @@ build/
 Thumbs.db
 
 **/api_key.dart
+
+.flutter-plugins
+.flutter-plugins-dependencies
