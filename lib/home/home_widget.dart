@@ -368,6 +368,12 @@ class _HomeWidgetState extends State<HomeWidget> {
                 Expanded(
                   child: Stack(
                     children: [
+                      Container(
+                        // Aqui você define a cor de fundo ou até mesmo uma imagem.
+                        decoration: BoxDecoration(
+                          color: Color(0xFF28456F),
+                        ),
+                      ),
                       if (!FFAppState().routeSelected.hasRouteId())
                         SingleChildScrollView(
                           child: Column(
@@ -397,7 +403,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                         height: 50.0,
                                         padding: const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
                                         iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                                        color: const Color(0xFF28B446),
+                                        color: const Color(0xFF00AA5B),
                                         textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                                               fontFamily: 'Inter',
                                               color: Colors.white,
@@ -426,10 +432,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                         height: 50.0,
                                         padding: const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
                                         iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                                        color: const Color(0xFF4646B4),
+                                        color: const Color(0xFFFFFFFF),
                                         textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                                           fontFamily: 'Inter',
-                                          color: Colors.white,
+                                          color: Colors.black,
                                         ),
                                         elevation: 3.0,
                                         borderSide: const BorderSide(
