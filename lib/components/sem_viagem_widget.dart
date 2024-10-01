@@ -59,7 +59,7 @@ class _SemViagemWidgetState extends State<SemViagemWidget> {
                     borderRadius: BorderRadius.circular(16.0),
                   ),
                   child: Text(
-                    'VIAGEM CONCLUÍDA \nCOM SUCESSO!',
+                    'TODAS AS VIAGENS CONCLUÍDAS \nCOM SUCESSO!',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Inria Sans',
                           color: const Color(0xFF28456F), // Cor do texto

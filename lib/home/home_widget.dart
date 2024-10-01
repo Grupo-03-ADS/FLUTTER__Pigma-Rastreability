@@ -399,7 +399,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                         FontAwesomeIcons.whatsapp,
                                       ),
                                       options: FFButtonOptions(
-                                        width: 175.0,
+                                        width: 150.0,
                                         height: 50.0,
                                         padding: const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
                                         iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
@@ -428,7 +428,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                         FontAwesomeIcons.arrowsRotate,
                                       ),
                                       options: FFButtonOptions(
-                                        width: 175.0,
+                                        width: 150.0,
                                         height: 50.0,
                                         padding: const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
                                         iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
@@ -1664,7 +1664,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                     },
                     text: 'Remover concordância',
                     options: FFButtonOptions(
-                      width: 250.0,
+                      width: 200.0,
                       height: 50.0,
                       padding: const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                       iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
