@@ -79,7 +79,7 @@ flutter_launcher_icons:
   remove_alpha_ios: true
   web:
     generate: true
-  image_path: 'assets/icon/lakreAppIcon-nobg.png'
+  image_path: 'assets/icon/logomarca_icon.png'
 
 
 # For information on the generic Dart part of this file, see the

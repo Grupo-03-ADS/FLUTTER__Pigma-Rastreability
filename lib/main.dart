@@ -73,7 +73,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Lakre Rastreamento',
+      title: 'Pigma Rastreamento',
       debugShowCheckedModeBanner: false,
       localizationsDelegates: const [
         FFLocalizationsDelegate(),
