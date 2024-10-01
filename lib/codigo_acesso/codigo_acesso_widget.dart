@@ -296,7 +296,10 @@ class _CodigoAcessoWidgetState extends State<CodigoAcessoWidget> {
                               filled: true,
                               fillColor: const Color(0xFFECECEC),
                             ),
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'Inter',
+                              color: FlutterFlowTheme.of(context).accent1,
+                            ),
                             validator: _model.textControllerValidator
                                 .asValidator(context),
                             inputFormatters: [_model.textFieldMask],
@@ -305,7 +308,7 @@ class _CodigoAcessoWidgetState extends State<CodigoAcessoWidget> {
                       ),
                       const Spacer(flex: 2),
                       CheckboxListTile(
-                        title: const Text("Mantenha-me conectado!"),
+                        title: const Text("Mantenha-me conectado!", style: TextStyle(color: Colors.white)),
                         value: FFAppState().keepLoggedIn,
                         onChanged: (newValue) {
                           setState(() {
