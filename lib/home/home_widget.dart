@@ -312,9 +312,9 @@ class _HomeWidgetState extends State<HomeWidget> {
                                   onTap: () {
                                     showRemoveConsentDialog(context);
                                   },
-                                  child: const Icon(
+                                  child: Icon(
                                     Icons.description_outlined,
-                                    color: Color(0xFF2D2D6B),
+                                    color: FlutterFlowTheme.of(context).accent3,
                                     size: 28.0,
                                   ),
                                 ),
@@ -352,9 +352,9 @@ class _HomeWidgetState extends State<HomeWidget> {
 
                                   context.pushReplacementNamed('codigoAcesso');
                                 },
-                                child: const Icon(
+                                child: Icon(
                                   Icons.logout_rounded,
-                                  color: Color(0xFF2D2D6B),
+                                  color: FlutterFlowTheme.of(context).accent3,
                                   size: 28.0,
                                 ),
                               ),
@@ -575,7 +575,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                                                 ),
                                                                                 Text(
                                                                                   'Você',
-                                                                                  style: FlutterFlowTheme.of(context).bodyMedium,
+                                                                                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                                                                                    fontFamily: 'Poppins',
+                                                                                    color: FlutterFlowTheme.of(context).primary,
+                                                                                  ),
                                                                                 ),
                                                                               ],
                                                                             ),
@@ -606,7 +609,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                                                 ),
                                                                                 Text(
                                                                                   FFAppState().stopInProgress.stopName,
-                                                                                  style: FlutterFlowTheme.of(context).bodyMedium,
+                                                                                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                                                                                      fontFamily: 'Poppins',
+                                                                                      color: FlutterFlowTheme.of(context).primary,
+                                                                                  ),
                                                                                 ),
                                                                               ],
                                                                             ),
@@ -951,15 +957,15 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                       height: 48.0,
                                                       padding: const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                                                       iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                                                      color: Colors.transparent,
+                                                      color: FlutterFlowTheme.of(context).accent3,
                                                       textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                                                             fontFamily: 'Poppins',
                                                             color: FlutterFlowTheme.of(context).primary,
                                                             fontSize: 10.0,
                                                           ),
-                                                      elevation: 0.0,
-                                                      borderSide: BorderSide(
-                                                        color: FlutterFlowTheme.of(context).primary,
+                                                      elevation: 3.0,
+                                                      borderSide: const BorderSide(
+                                                        color: Colors.transparent,
                                                         width: 2.0,
                                                       ),
                                                       borderRadius: BorderRadius.circular(8.0),
@@ -1033,7 +1039,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                                     ),
                                                                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                           fontFamily: 'Poppins',
-                                                                          color: FlutterFlowTheme.of(context).accent1,
+                                                                          color: FlutterFlowTheme.of(context).accent3,
                                                                           fontSize: 20.0,
                                                                         ),
                                                                   ),
@@ -1042,7 +1048,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                                   'Previsão de chegada às ${functions.formatDateTimeString(FFAppState().routeSelected.expectedArrivalDt)}',
                                                                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                         fontFamily: 'Poppins',
-                                                                        color: FlutterFlowTheme.of(context).accent1,
+                                                                        color: FlutterFlowTheme.of(context).accent3,
                                                                         fontSize: 8.0,
                                                                       ),
                                                                 ),
@@ -1101,7 +1107,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                                 height: 48.0,
                                                                 padding: const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
                                                                 iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                                                                color: FlutterFlowTheme.of(context).primary,
+                                                                color: FlutterFlowTheme.of(context).success,
                                                                 textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                                                                       fontFamily: 'Poppins',
                                                                       color: Colors.white,
@@ -1203,7 +1209,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                                         ),
                                                                         Text(
                                                                           stopsItem.stopName,
-                                                                          style: FlutterFlowTheme.of(context).bodyMedium,
+                                                                          style: FlutterFlowTheme.of(context).bodyMedium.override(
+                                                                            fontFamily: 'Poppins',
+                                                                            color: FlutterFlowTheme.of(context).accent1,
+                                                                          ),
                                                                         ),
                                                                       ],
                                                                     ),

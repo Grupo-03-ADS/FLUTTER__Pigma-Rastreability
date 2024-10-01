@@ -1,3 +1,4 @@
+import 'package:pigma/flutter_flow/flutter_flow_theme.dart';
 import 'package:pigma/logomarca_global.dart';
 
 import '/flutter_flow/flutter_flow_util.dart';
@@ -47,7 +48,7 @@ class _SplashWidgetState extends State<SplashWidget> {
 
     return Scaffold(
       key: scaffoldKey,
-      backgroundColor: Colors.white,
+      backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
       body: SafeArea(
         child: SizedBox(
           width: MediaQuery.of(context).size.width, // added
