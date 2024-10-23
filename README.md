@@ -15,7 +15,45 @@ O foco do aplicativo é ser simples, intuitivo e eficiente, uma vez que será ut
 - **Integração com APIs**: O aplicativo é integrado com as APIs de navegação (Mapbox e possivelmente Waze) e com a API do sistema gestor, que designa as viagens e motoristas.
 
 ## Pré-requisitos
+Este é um projeto Flutter que roda exclusivamente em dispositivos Android.
+- Flutter -> (https://flutter.dev/docs/get-started/install) - versão mínima recomendada: 2.0.0;
+- Dart -> (https://dart.dev/get-dart) - versão mínima recomendada: 2.12.0;
+- Android Studio -> (https://developer.android.com/studio) - para desenvolvimento Android;
 
 ## Instalação
+- *Configuração do Ambiente:*
+  1. Clone o repositório:
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    cd seu-repositorio
+  2. Instale as dependências do Flutter:
+    flutter pub get
+
+- *Executando o Projeto:*
+   1. Inicie um emulador Android ou conecte um dispositivo físico.
+   2. Execute o comando:*
+    flutter run
+
+- *Estrutura do Projeto:*
+    - android/: Arquivos específicos do Android;
+    - assets/: Recursos estáticos como imagens e fontes;
+    - build/: Diretório de build gerado automaticamente;
+    - lib/: Código fonte principal do Flutter;
+    - test/: Testes unitários e de widget;
+
+- *Contribuindo:*
+  1. Faça um fork do projeto
+  2. Crie uma branch para sua feature:
+     git checkout -b feature/nova-feature
+  3. Commit suas mudanças:
+     git commit -am 'Adiciona nova feature'
+  4. Faça push para a branch:
+     git push origin feature/nova-feature
+  5. Abra um Pull Request
 
 ## Autores
+- Arthur Noronha: dev
+- DJonathan: dev
+- Felipe Boufleuher: dev
+- Lucas Klauck: dev
+- Luiz Henrique: dev
+- Maria Fernanda: gestora do projeto
