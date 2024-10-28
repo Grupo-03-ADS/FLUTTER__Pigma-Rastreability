@@ -51,9 +51,9 @@ Este é um projeto Flutter que roda exclusivamente em dispositivos Android.
   5. Abra um Pull Request
 
 ## Autores
-- Arthur Noronha: dev
-- DJonathan: dev
-- Felipe Boufleuher: dev
-- Lucas Klauck: dev
-- Luiz Henrique: dev
-- Maria Fernanda: gestora do projeto
+- @ArthurGNoronha
+- @DjoninhaA
+- @FelipeBoufleuher
+- @Lucas-Klauck
+- @LuizHenriquezk
+- @mafebordignon
