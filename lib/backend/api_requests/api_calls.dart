@@ -11,7 +11,7 @@ export 'api_manager.dart' show ApiCallResponse;
 /// Start APIs Pigman Group Code
 
 class APIsPigmanGroup {
-  static String baseUrl = 'https://pigmabemestaranimal.com:10529/apis';
+  static String baseUrl = 'https://lakre.pigmadesenvolvimentos.com.br:10529/apis';
   static Map<String, String> headers = {
     'User-Agent': packageName,
     'Authorization': apiKey,

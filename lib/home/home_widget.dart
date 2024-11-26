@@ -946,6 +946,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                       _model.menu = false;
 
                                                       await MapBoxNavigation.instance.startNavigation(wayPoints: wayPoints, options: _navigationOption);
+                                                      print("Iniciando navegação");
 
                                                       setState(() {});
                                                     },
