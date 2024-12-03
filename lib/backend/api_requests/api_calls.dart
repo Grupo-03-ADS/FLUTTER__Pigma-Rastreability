@@ -11,7 +11,8 @@ export 'api_manager.dart' show ApiCallResponse;
 /// Start APIs Pigman Group Code
 
 class APIsPigmanGroup {
-  static String baseUrl = 'https://pigmabemestaranimal.com:10529/apis';
+  static String baseUrl =
+      'https://lakre.pigmadesenvolvimentos.com.br:10529/apis';
   static Map<String, String> headers = {
     'User-Agent': packageName,
     'Authorization': apiKey,
@@ -23,7 +24,8 @@ class APIsPigmanGroup {
   static PostPositionCall postPositionCall = PostPositionCall();
   static GETCurrentRouteCall gETCurrentRouteCall = GETCurrentRouteCall();
   static GetNextRouteCall getNextRouteCall = GetNextRouteCall();
-  static SetTermsAcceptanceCall  setTermsAcceptanceCall = SetTermsAcceptanceCall();
+  static SetTermsAcceptanceCall setTermsAcceptanceCall =
+      SetTermsAcceptanceCall();
 }
 
 class CheckCPFCall {
@@ -52,7 +54,7 @@ class CheckCPFCall {
 
 class SetTermsAcceptanceCall {
   Future<ApiCallResponse> call({
-    String? cpf = '', 
+    String? cpf = '',
     bool termsAccepted = false,
   }) async {
     return ApiManager.instance.makeApiCall(

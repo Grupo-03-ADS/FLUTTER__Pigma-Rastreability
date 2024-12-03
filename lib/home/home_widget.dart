@@ -912,7 +912,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                             date: DateTime.now().subtract(DateTime.now().timeZoneOffset).subtract(const Duration(hours: 3)),
                                                             finish: false,
                                                           ));
-                                                        });
+                                                        }); 
 
                                                         postRoute(false);
                                                         wayPoints.clear();
